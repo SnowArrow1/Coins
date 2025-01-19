@@ -10,9 +10,8 @@ data class CoinData(
 )
 
 data class Coin(
-    val uuid: String,
     val name: String,
     val symbol: String,
-    val price: String,
-    val iconUrl: String
+    val iconUrl: String,
+    val coinrankingUrl: String
 )

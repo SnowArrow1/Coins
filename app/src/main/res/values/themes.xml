@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Coins" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.Coins" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary colors -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
 </resources>
